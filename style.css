@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+*{ margin: 0 auto; padding: auto; font-family: 'Red Hat Display', sans-serif;}
+
+body{
+ 
+    background-color: #3A3654;
+
+}
+
+.container-all{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;    
+    height: 100%;
+    
+}
+
+
+
+.right-container{
+    position: relative;
+    display: flex;
+    width: 50%;    
+    height: 100%;
+    justify-content: flex-end;
+    align-self: flex-end;
+    border-left: solid 4px #474973;
+}
+  
+img{
+    width: 100%;
+
+}
+
+.img-pumpkim{
+
+    padding: 6%;
+   
+}
+
+#pump{
+    clip: rect(0px,60px,200px,0px);
+    object-fit: cover; 
+}
+
+h1{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: lighter;
+
+} h2{
+    color: #FFF;
+    font-weight: lighter;
+    margin: 4%;
+}
+span{
+    color: #40DE18;
+}
+h3{
+
+    color: #FFF;
+    font-weight: lighter;
+    margin: 4%;
+}
+
+h3 span{
+    color: #FFB83D;
+   
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+
+.countdown div{
+    margin: 10px;
+    width: 8rem;
+    line-height: 120px;
+    text-align: center;
+    background: #553D6D;
+    color: #FFFF;
+    font-size: 2em;
+    font-weight: bold;
+  
+}
+.titlesCount {
+    display: flex;
+    justify-content: center;
+    
+}
+.titlesCount div{
+
+    margin: 10px;
+    width: 8rem;
+    height: 1.6rem;
+    background: #553D6D;
+    color: #FFFF;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding-top: 10px;
+}

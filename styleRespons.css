@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) {
+    .right-container{
+        display: none;
+    }
+.left-container{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    width: 100%;
+}
+    h1{
+        font-size: 1.4em;
+    }
+    h2{
+        font-size: 0.8em;
+    }
+    h3{
+        font-size: 0.8;
+    }
+
+    #pump{
+        clip: none;
+        object-fit:contain;
+        width: 100%;
+        height: 200px;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+  
+    h3{
+        font-size: 12pt;
+    }
+
+    #pump{
+
+        height: 100px;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+    .right-container img{
+       
+        object-fit: cover; 
+    
+    }
+  }
